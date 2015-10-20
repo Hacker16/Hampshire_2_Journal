@@ -1,0 +1,34 @@
+grep -abif searchterms.txt practical.floppy.dd > hits.txt
+
+-finds results and puts them in a file
+
+cat hits.txt
+
+-check file
+
+xxd -s 75441 image.disk1 | less
+
+-shows hex code for file, less slows result speed 
+
+fallocate -l 10M file.out
+
+-fills files with zeros
+
+dd -h
+
+-clones files
+
+dd if=/dev/zero of=file.out
+
+-clones and imputs zeros and outputs to file.out
+
+dd if=/dev/zero bs=1M count=10M of=file2.out
+
+-puts in 10M of zeros into file.out
+
+xxd -a file.out
+
+-show hex for file.out
+
+xxd -a practical.floppy.dd
+
