@@ -1,8 +1,0 @@
-What is a file system?
-What the disk is formated in
-What are inodes?
-bit numbering for the hard drive
-What are disk partitions?
-space inside a hard drive
-What are journaling file systems?
-It backs up the information in the case of a crash on the computer
