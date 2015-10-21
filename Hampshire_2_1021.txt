@@ -1,0 +1,4 @@
+What is data carving? How is it done? How does it relate to what we were doing yesterday?
+
+-Data carving isextracting parts of data for a larger data set. It is done by looking for what you what to find and then oving on to looking at the rest of the data. It relates to what we were doing yesterday since we were looking for
+bit data which is a starting base for data carving.
