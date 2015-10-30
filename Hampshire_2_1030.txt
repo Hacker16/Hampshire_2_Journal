@@ -1,0 +1,11 @@
+Why do we use disk images in digital forensics?
+-So that the original image is not messed with.
+Provide an example and describe a use case.
+-
+****************************************
+What are the steps of creating a blank disk image and then adding files?
+-fallocate -l [size] [name of image]
+cfdisk [name of image] to create partitions
+kpartx -a to mount image
+touch to create empty files to check it mounted
+kpartx -d to unmount image
