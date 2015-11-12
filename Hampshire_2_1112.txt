@@ -1,0 +1,2 @@
+How can you combine multiple files in Linux? 
+-cat file1 file2 file3 >>biggerfile
