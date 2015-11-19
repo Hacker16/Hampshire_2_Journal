@@ -1,0 +1,21 @@
+First we search for 1.________ We search for 2._______ by using the command 3.________
+Then we 4._________ to find the line.
+Using the value from that - we use 5.__________ and 6.__________ to convert 7.__________ to a decimal number.
+For example, in the example from yesterday, we found 8.____________ and converted it to decimal using the command 9._________________
+Then to find the end of the file, we searched for 10._______________ using the command 11.___________________.
+******************************************************
+Using that information, we find the number of bits, using the command 12._____________
+Then using dd we can reconstruct the file using the command 13.__________________________
+1.JFIF 
+2.ffd8
+3.grep
+4.xxd | grep
+5.bc
+6.
+7.bases
+8.
+9.echo "ibase=16;[decimal]" | grep
+10.ffd9
+11.xxd [file location] | grep "ffd9"
+12.echo [end of line] - [start of line] | bc
+13.
