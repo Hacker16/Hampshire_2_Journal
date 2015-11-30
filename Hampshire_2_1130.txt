@@ -1,0 +1,20 @@
+Look at the link here
+
+Describe:
+
+What type of information does this site provide? Why?
+-explains a .jpg file
+How would a digital forensics expert use this information?
+-how to use the file extensions
+Look at the pdf here
+
+What is it for?
+-reference tools
+What information BE SPECIFIC do you need to recover:
+
+an Excel document?
+-.xls file extension
+a Word document?
+- .docx file extension
+a ZIP file?
+- 
