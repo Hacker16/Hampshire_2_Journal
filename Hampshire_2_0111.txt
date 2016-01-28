@@ -1,0 +1,12 @@
+mmls -t dos newfloppy.img - what happens?
+-invalid
+mmls -t dos manypartitions3.disk
+How is it diferent than newfloppy.img?
+What is the first column?
+What might the slot value be?
+mmls -t list
+What are raw, aff, afd, afm, afflib, ewf, and split with regards to digital forensics?
+Using manypartitions3.disk
+mmls manypartitions3.disk
+mmls -a manypartitions3.disk
+fdisk -lu manypartitions3.disk

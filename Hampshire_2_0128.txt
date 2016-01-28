@@ -1,0 +1,8 @@
+ What is a pst file? What is it good for?
+-personal storage for Microsoft Outlook
+Use man pffinfo and man pffexport
+What do these programs do? How might they be used in digital forensics?
+-gets information from a PST file and exports it out to be viewed
+Use man mairix and man grepmail
+What do these two programs do? How might you use them? 
+-searchs and gets emails to be able to look through them
