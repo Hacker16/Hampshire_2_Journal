@@ -1,0 +1,12 @@
+When you signed up for digital forensics, what did you think a digital forensics investigator did?
+-They anaylzed a device for a criminal case
+When you signed up for this class, what did you think you would be doing in this class?
+-learning how to anylze a harddrive for any incriminating information
+Given what you now know about digital forensics - what does a digital forensics investigation look like?
+-it is copying the hard drive and then go through looking for hidden files
+How might an actual forensics investigation be different than those unfamiliar with digital forensics might predict?
+-they actually have experience
+Are you currently interested in digital forensics? Why or why not?
+-yes, i plan to go into the field when I graduate
+If a friend told you, they want to study digital forensics, what advice might you give them?
+-do it, it payes well
