@@ -1,5 +1,7 @@
 tcpdump -nS
-tcpdump -w writes to a file, e.g., tcpdump -w lastname_0211.pcap
+-gets internet traffic
+tcpdump -w 
+-writes to a file
 To capture traffic for a specific port: tcpdump port ??
 To cature traffic on a specific interface: tcpdump -i eth0
 In Linux, to list interfaces, type ifconfig (as root)
