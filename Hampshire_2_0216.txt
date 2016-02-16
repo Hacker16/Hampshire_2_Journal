@@ -1,0 +1,10 @@
+Describe: tcpick
+-textmode sniffer libpcap-based that can track tcp streams and saves the data captured
+Describe: chaosreader
+-traces TCP/UDP/others sessions and fetches application data
+Describe: tcpflow
+-a program that captures data transmitted as part of TCP connections (flows), and stores the data in a way that is convenient for protocol analysis or debugging
+Describe: driftnet
+-watches network traffic, and picks out and displays JPEG and GIF images for display
+May you use these on public networks? Why or why not?
+-No because it would be illegally snooping through other people's stuff which goes against the Computer Fraud and Abuse Act
