@@ -10,22 +10,22 @@ Why might someone change the value to 1?
 -creates data
 You should now install Zenmap
 What command(s) are needed to update and install zenmap?
-
+-apt-get update		apt-get install zenmap
 Start zenmap
 
 root does not have permission to run graphics; you'll need to use xhost + from your normal VM user.
 
 In a terminal type: nmap --top-ports 25 10.4.27.YOURNINJA+1
 What do you see?
--progroms used
+-programs used
 Change the 25 to 10 and then to 100 - what changed?
--the type of programs
+-services and their states
 Enter the code: nmap -F 10.4.27.1-29
 
 What did you see?
--im not sure
+-the status of the computers in our lab
 How might this be useful in a digital forensics investigation?
--im not sure
+-if you are working with a company then you can look at all their computers at once
 Scan the subnet to identify the various OSes
 What is an OS?
 -operating system
@@ -45,3 +45,4 @@ Why the difference?
 
 Now fire up Zenmap and take a picture of the network topography
 Why would you want a picture of network topography for digital forensics?
+-to look for spikes in activity during suspected times of criminal activity
