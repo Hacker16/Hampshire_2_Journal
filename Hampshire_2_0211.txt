@@ -3,8 +3,25 @@ tcpdump -nS
 tcpdump -w 
 -writes to a file
 To capture traffic for a specific port: tcpdump port ??
+-80
 To cature traffic on a specific interface: tcpdump -i eth0
 In Linux, to list interfaces, type ifconfig (as root)
 Given the above - what is the command to capture most/all web based traffic on your computer to a file lastname_0211.pcap?
+-tcpdump -i eth0 port 8- -w H0216.pcap
 Use that command to begin a packet capture.
+Browse to ten web pages
+Examine the pcap - grab a line from each of the ten web pages
 
+Use tcpdump -r lastname_0211.pcap
+
+    Post them in your document, number and describing each one:
+1. http://www.girlscouts.org/
+2. http://www.telegraph.co.uk/men/11501340/Science-explains-why-hipsters-grow-beards.html
+3. http://www.success.com/mobile/article/10-steps-to-achieve-any-goal
+4. https://en.wikipedia.org/wiki/Kanye_West
+5. http://nerd.com/
+6. http://nerd.org/
+7. http://www.hampshire.com/
+8. http://purpledragon.us/
+9. http://www.elle.com/beauty/hair/tips/g8556/edgy-celebrity-hairstyles/
+10. http://www.ford.com/cars/mustang/2015/
