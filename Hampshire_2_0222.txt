@@ -34,15 +34,20 @@ Why would you scan the network for different OSes?
 
 -o is used for OS scans
 What command did you use to scan d22 for different OSes?
+-nmap -O 10.4.27.1-29
 What is the address of the printer?
+-10.4.27.20, 10.4.27.22
 What is the address of the switch?
-
+-
 Try the code: nmap --iflist
 What does it do?
+-prints hosts and interfaces
 What are the ipv4 addresses?
+-
 What are the ipv6 addresses?
+-
 Why the difference?
-
+-
 Now fire up Zenmap and take a picture of the network topography
 Why would you want a picture of network topography for digital forensics?
 -to look for spikes in activity during suspected times of criminal activity
