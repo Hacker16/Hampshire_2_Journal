@@ -1,0 +1,22 @@
+What browser is being used? How do you know? [Give output to support your answer]
+-The user is using firefox or some other mozilla browser
+What subnet is the machine on?
+-The subnet is 192.168.1.2
+What is the router's IP address? [Is this common? Why?]
+-The IP is and is very common due to this being the range private IP adresses are
+What is Verisign?
+-Verisign is a ssl cerificate signer
+Which programming language is being investigated?
+-The language in question is python
+What are ack and seq?
+-ack are aknowldgement numbers and sseq is sequence which are part of the 3 way hand shake(ack,seq,ackseq)
+Is somebody sending email? How do you know?
+-we can see if someone sent an email by greping for something with "mail"
+Is there a printer on the network? How do you know? [Give data to support your assertion.]
+-There is a printer in the network because of the udp files that printers send
+Are any gov sites contacted? Why?
+-There was gov sites where accessed and can be seen by using grep
+Why is there so much traffic to deploy.akamaitechnologies.com?
+-It is a cloud based information service that will be able to send and receive info
+A lot of data is going to and from a sepcific IP address - what is that address? What type of traffic?
+-

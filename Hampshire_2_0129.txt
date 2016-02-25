@@ -1,0 +1,6 @@
+How many directories are there? What are the directories?
+-5
+Using cat , Where are the actual messages kept? What directory(s)? What files?
+-IPM_COMMON_VIEWS  IPM_VIEWS  Reminders  Search Root  Top of Personal Folders
+Is this email suspicious/problematic? How? Be specific. Explain what most likely happened.
+-

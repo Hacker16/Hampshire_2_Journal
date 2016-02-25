@@ -1,0 +1,11 @@
+What web pages were visited? [Top 3]
+- 1)10.0.2.15             583
+      2)208.80.153.240        330
+      3)208.80.153.224        229
+What images were viewed?
+- https     1142
+        http      50
+What other fields / information does chaosreader provide?
+-The host of the webbsite and all the cookies it produces
+How did you view the report?
+-I see the exact time i accesed a website and the the ip adress

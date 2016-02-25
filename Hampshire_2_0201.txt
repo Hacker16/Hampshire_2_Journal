@@ -1,0 +1,83 @@
+
+    List the steps from xmount, to fls, to icat, to pffexport, to grep, to cat -- to reveal the problematic email headers from the M57.biz
+	-xmount --in ewf /usr/share/digitalforensics/images/nps-2008-jean.E?? ewf/
+
+mmls -i raw -o 63 ewf/nps-2008-jean.dd
+
+fls -i raw -o 63 ewf/nps-2008-jean.dd >> bodyfile.txt 
+
+cat bodyfile.txt  |grep xls
+
+mactime -b bodyfile.txt  > mactimeout.csv
+
+icat -o 63 -i raw ewf/nps-2008-jean.dd 32712 > example.xls
+
+grep -abi "*@m57*" ewf/nps-2008-jean.dd
+
+fls -r -i raw -o 63 nps-2008-jean.dd |grep "\.pst"
+
+icat -o 63 -i raw ewf/nps-2008-jean.dd 17358 > outlook.pst
+
+pffexport -m all -t outlook.pst.export/ outlook2.pst
+
+cd outlook.pst.export/Top\ of\ Personal\ Folders/
+
+grep -rw "@m57.biz" Inbox/
+
+    Paste the problematic email headers
+	-Outlook:
+1)Message 207
+Message:
+Client submit time:			Jul 19, 2008 23:39:57.000000000 UTC
+Delivery time:				Jul 19, 2008 23:39:57.000000000 UTC
+Creation time:				Jul 19, 2008 23:40:36.442000000 UTC
+Modification time:			Jul 19, 2008 23:44:40.660000000 UTC
+Size:					2378
+Flags:					00000001 (Read)
+Conversation topic:			background checks
+Subject:				background checks
+Sender name:				alison@m57.biz
+Sender email address:			alison@m57.biz
+Sent representing name:			alison@m57.biz
+Sent representing email address:	alison@m57.biz
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+
+2)Message 214
+Message:
+Client submit time:			Jul 20, 2008 01:22:45.000000000 UTC
+Delivery time:				Jul 20, 2008 01:22:45.000000000 UTC
+Creation time:				Jul 20, 2008 01:26:11.781000000 UTC
+Modification time:			Jul 20, 2008 01:28:42.234000000 UTC
+Size:					2278
+Flags:					00000001 (Read)
+Conversation topic:			Please send me the information now
+Subject:				Please send me the information now
+Sender name:				alison@m57.biz
+Sender email address:			tuckgorge@gmail.com
+Sent representing name:			alison@m57.biz
+Sent representing email address:	tuckgorge@gmail.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+
+3)Message 215
+Message:
+Client submit time:			Jul 20, 2008 05:03:40.000000000 UTC
+Delivery time:				Jul 20, 2008 05:03:40.000000000 UTC
+Creation time:				Jul 20, 2008 05:03:55.828000000 UTC
+Modification time:			Jul 20, 2008 05:04:07.609000000 UTC
+Size:					2125
+Flags:					00000001 (Read)
+Conversation topic:			Thanks!
+Subject:				Thanks!
+Sender name:				alison@m57.biz
+Sender email address:			tuckgorge@gmail.com
+Sent representing name:			alison@m57.biz
+Sent representing email address:	tuckgorge@gmail.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+
+
