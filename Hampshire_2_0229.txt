@@ -1,0 +1,7 @@
+
+    What is suspected?
+	-collaborations for making and possessing kitty porn
+    How will you use network data to investigate the suspected crime?
+	-she connections or packets sent between the individuals involved in this crime
+    Give 3 examples.
+	-kismet, tcpdump, chaosreader
