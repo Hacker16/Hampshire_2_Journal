@@ -1,0 +1,16 @@
+
+    Have you logged into your router at home?
+	No
+    Do you know what router you use? Which?
+	No
+    Do you know what firmware your router uses? Which?
+	No
+    Do you know the essid of your router? your neighbors' routers?[Notice, you were not asked to provide any ESSIDs.]
+	No
+    Which channel is your router using? protocol(s)?
+	IDK
+    Have you changed the default password? why or why not?
+	No, I don't know how to
+    Should you change the default password? why or why not?
+	Yes, because it will then be a little more difficult to hack but still possible
+
