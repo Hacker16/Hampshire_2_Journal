@@ -1,0 +1,18 @@
+When discussing wifi, what is:
+
+    an AP
+	-an access point;a networking hardware device that allows a Wi-Fi compliant device to connect to a wired network
+    a client
+	-A device that connects to a Wi-Fi (wireless) network
+    a bridge
+	-a device used to add desktop computers and printers without cables
+    a repeater
+	-takes an existing signal from a wireless router or wireless access point and rebroadcasts it to create a second network
+    ad-hoc mode
+	-decentralized type of wireless network
+    mesh network
+	-a communications network made up of radio nodes organized in a mesh topology
+    war chalking
+	-the drawing of symbols in public places to advertise an open Wi-Fi network
+    a rogue AP
+	-wireless access point that has been installed on a secure network without explicit authorization
