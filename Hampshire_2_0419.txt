@@ -1,0 +1,4 @@
+What option must you disable in Kismet so as to not commit a felony? Why?
+-packet sniffer, logging packets is an illegal activity
+What is WEP encryption and why is it unsafe? i.e., how is it compromised?
+-encryption of a wireless network but WEP is an older version of wireless network making the work arounds already known or very easy to find.
