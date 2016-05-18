@@ -1,0 +1,6 @@
+How is WEP vulnerable?
+-it's easier to hack and get the key to the wireless network
+How might you notice if someone is trying to crack WEP on a network you monitor?
+-the network traffic will increase slowing down the network
+How can you protect networks from WEP vulnerabilities?
+-change the key frequently
