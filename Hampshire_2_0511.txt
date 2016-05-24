@@ -1,6 +1,6 @@
 
     What are 3 recommended wireless cards/chipsets for more advanced wireless applications? Finish the words: Ath___os, O____co, Ub_____i
-	Atheros, 
+	Atheros, ,Ubiquiti
     Why are these cards recommended?
 	most stable when working with linux
     What are special problems with the Broadcom chipset for advanced wireless? Why?
